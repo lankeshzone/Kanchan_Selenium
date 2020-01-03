@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DC560597-93E3-4139-82F5-A0278AD4322C}</ProjectGuid>
+    <ProjectGuid>{814C808E-A6C5-483E-9AEC-1597CFE1740C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Kanchan_Selenium</RootNamespace>
-    <AssemblyName>Kanchan_Selenium</AssemblyName>
+    <RootNamespace>Kanchan_SolutionTwo</RootNamespace>
+    <AssemblyName>Kanchan_SolutionTwo</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Kanchan_Selenium.stringExample</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,13 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="controlsExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="stringExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kanchan_Selenium\Kanchan_Selenium.csproj">
+      <Project>{DC560597-93E3-4139-82F5-A0278AD4322C}</Project>
+      <Name>Kanchan_Selenium</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

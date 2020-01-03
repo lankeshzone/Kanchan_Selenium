@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kanchan_Selenium", "Kanchan_Selenium\Kanchan_Selenium.csproj", "{DC560597-93E3-4139-82F5-A0278AD4322C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kanchan_SolutionTwo", "Kanchan_SolutionTwo\Kanchan_SolutionTwo.csproj", "{814C808E-A6C5-483E-9AEC-1597CFE1740C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DC560597-93E3-4139-82F5-A0278AD4322C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC560597-93E3-4139-82F5-A0278AD4322C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC560597-93E3-4139-82F5-A0278AD4322C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814C808E-A6C5-483E-9AEC-1597CFE1740C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814C808E-A6C5-483E-9AEC-1597CFE1740C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814C808E-A6C5-483E-9AEC-1597CFE1740C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814C808E-A6C5-483E-9AEC-1597CFE1740C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
