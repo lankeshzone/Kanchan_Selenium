@@ -1,0 +1,23 @@
+
+method ---> 
+set of statement
+some inputs/outputs
+call whenever we want
+
+syntax
+<modifier> returntype methodname(parameters)
+{
+//statements
+}
+
+ public void fees(int af, int tf, int sf)
+        {
+            fee = af + tf + sf;
+        }
+
+public int fee()
+{
+
+...
+return fee;
+}

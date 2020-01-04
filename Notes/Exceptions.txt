@@ -1,0 +1,23 @@
+try
+{
+//process
+//file process
+//arrays
+//Arithmetic ops
+}
+catch(Type of exception or Exception)
+{
+// corrective measure
+} 
+catch(exception-2)
+{
+
+}
+catch(exception-3)
+{
+//
+}
+finally
+{
+// executes irrespective of try/catch.. this is optioal..
+}
