@@ -36,6 +36,14 @@ namespace Kanchan_Selenium
             for(int x=0;x<c.Length;x++)
             Console.Write(c[x]);
 
+            Console.WriteLine("Split strings " + str);
+
+            char[] aa = { 'i','a' };
+            String[] s1 = str.Split(aa);
+
+            for (int j = 0; j < s1.Length; j++)
+                Console.WriteLine(s1[j]);
+
 
             Console.ReadKey();
 
