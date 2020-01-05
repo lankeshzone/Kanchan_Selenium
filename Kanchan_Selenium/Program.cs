@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -47,5 +48,45 @@ namespace Kanchan_Selenium
         }
 
     }
+
+    class fileOps
+    {
+        static void Main(string[] args)
+        {
+            //  File.WriteAllText()
+
+            FileStream F = new FileStream("c://selenium//test.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+
+            int j = 0;
+
+            for (int i = 1; i <= 20; i++)
+            {
+                j += 2;
+
+                F.WriteByte((byte)j);
+
+            }
+
+            
+
+
+            //File.Create("c://selenium//test25.txt");
+            File.AppendText("c://selenium//test25.txt").Write("Lankesh");
+
+            F.Position = 0;
+
+            for (int i = 0; i <= 20; i++)
+            {
+                Console.Write(F.ReadByte() + " ");
+            }
+
+
+            F.Close();
+
+            Console.ReadKey();
+        }
+    }
+
+    
 
 }
