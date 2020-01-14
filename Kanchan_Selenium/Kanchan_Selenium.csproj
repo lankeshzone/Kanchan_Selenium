@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Kanchan_Selenium.FilesEx</StartupObject>
+    <StartupObject>Kanchan_Selenium.idictionaryEx</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="collectionEx.cs" />
     <Compile Include="controlsExample.cs" />
     <Compile Include="ExceptionEx.cs" />
     <Compile Include="FilesEx.cs" />
