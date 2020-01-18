@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Selenium_Sessions.BrowserLaunch</StartupObject>
+    <StartupObject>Selenium_Sessions.WebElementEx</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -58,6 +58,7 @@
     <Compile Include="BrowserLaunch.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebElementEx.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
