@@ -28,11 +28,16 @@ namespace Selenium_Sessions
 
             // Console.WriteLine("Source code of the page" + driver.PageSource);
 
-          //  driver.Manage().Window.Maximize();
+            //  driver.Manage().Window.Maximize();
 
-        //    driver.Manage().Window.Minimize();
+            //    driver.Manage().Window.Minimize();
 
-           // driver.Manage().Window.FullScreen();
+            // driver.Manage().Window.FullScreen();
+
+            Point p = new Point(100,100);
+
+            driver.Manage().Window.Position=p;
+
 
             Console.WriteLine("Position of the windoow " +driver.Manage().Window.Position);
 
