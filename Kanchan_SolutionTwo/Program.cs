@@ -17,6 +17,7 @@ namespace Kanchan_SolutionTwo
             //Console.WriteLine("internal " + m.c);
             //Console.WriteLine("protected internal " + m.d);
             Console.ReadKey();
+        //
         }
     }
 }
