@@ -54,6 +54,7 @@ namespace Kanchan_Selenium
             fs.Flush();
 
             fs.Position = 0;
+            
 
             int d = fs.Read(b, 0, str1.Length);
 
