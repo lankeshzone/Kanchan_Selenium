@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Selenium_Sessions.InteractionsEx</StartupObject>
+    <StartupObject>Selenium_Sessions.switchToEx</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -60,6 +60,7 @@
     <Compile Include="findElementEx.cs" />
     <Compile Include="InteractionsEx.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="switchToEx.cs" />
     <Compile Include="WebElementEx.cs" />
   </ItemGroup>
   <ItemGroup>
