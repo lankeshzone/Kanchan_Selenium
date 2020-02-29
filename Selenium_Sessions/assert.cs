@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Firefox;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -42,8 +43,44 @@ namespace Selenium_Sessions
 
             Assert.Fail();
 
-            Console.ReadKey();
+         
+            
 
+           /* Screenshot ss = ((ITakesScreenshot)driver).GetScreenshot();
+            string Runname = "Test" + DateTime.Now.ToString("yyyy-MM-dd-HH_mm_ss");
+            string screenshotfilename = "X:\\screenshots\\" + Runname + ".jpg";
+            
+     
+            ss.SaveAsFile(screenshotfilename);
+            */
+
+            
+            //Browser Screenshot
+            ITakesScreenshot ts = ((ITakesScreenshot)driver); // object of type takesscreenshot
+            Screenshot capturescreen = ts.GetScreenshot(); // 
+            capturescreen.SaveAsFile("D:\\Test\\screenshot1.jpg");
+
+
+            //WebElement screenshot
+            IWebElement e = null;// = driver.FindElement(By.Id("password-visibility-toggle"));
+           
+
+            try
+            {
+                ts = (ITakesScreenshot)e;
+                capturescreen = ts.GetScreenshot();
+                capturescreen.SaveAsFile("D:\\Test\\show.jpg");
+            }
+            catch(Exception fe)
+            {
+                Console.WriteLine(fe.Message);
+            }
+            FirefoxOptions ff = new FirefoxOptions();
+            ff.AcceptInsecureCertificates = true;
+
+        
+
+            Console.ReadKey();
 
         }
 
