@@ -54,7 +54,7 @@ namespace Selenium_Sessions
             ss.SaveAsFile(screenshotfilename);
             */
 
-            
+       /*     
             //Browser Screenshot
             ITakesScreenshot ts = ((ITakesScreenshot)driver); // object of type takesscreenshot
             Screenshot capturescreen = ts.GetScreenshot(); // 
@@ -80,7 +80,7 @@ namespace Selenium_Sessions
 
         
 
-            Console.ReadKey();
+            Console.ReadKey();*/
 
         }
 
