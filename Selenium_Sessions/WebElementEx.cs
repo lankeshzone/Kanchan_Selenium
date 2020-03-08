@@ -1,5 +1,7 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.IE;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +15,19 @@ namespace Selenium_Sessions
     {
         public static void Main(String[] args)
         {
-            IWebDriver driver = new FirefoxDriver();
+
+            ChromeOptions opt;
+            opt.AddArgument;
+
+            InternetExplorerOptions opt;
+            opt.AddArgument
+
+              
+
+            FirefoxOptions opt = new FirefoxOptions();
+            opt.AddArgument("--headless");
+
+            IWebDriver driver = new FirefoxDriver(opt);
 
             driver.Url = "https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin";
 
